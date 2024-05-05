@@ -8,19 +8,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
       theme: AppTheme().getTheme(),
-      home: Scaffold(
-        appBar: AppBar(
-          centerTitle: true,
-          title: const Text('Material App Bar'),
-        ),
-        body: const Center(
-          child: Text('Hello World'),
-        ),
-      ),
+      routerConfig: appRouter,
     );
   }
 }
