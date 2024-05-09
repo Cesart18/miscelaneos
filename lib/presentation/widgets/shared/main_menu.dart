@@ -17,10 +17,10 @@ class MenuItem{
 final menuItems = <MenuItem>[
   MenuItem(title: 'Giroscopio', icon: Icons.downloading, route: '/gyroscope'),
   MenuItem(title: 'Acelerometro', icon: Icons.speed, route: '/accelerometer'),
-  MenuItem(title: 'Giroscopio', icon: Icons.explore_outlined, route: '/magnetometer'),
+  MenuItem(title: 'Magnetometro', icon: Icons.explore_outlined, route: '/magnetometer'),
 
-  MenuItem(title: 'Giroscopio', icon: Icons.sports_baseball, route: '/gyroscope-ball'),
-  MenuItem(title: 'Giroscopio', icon: Icons.explore, route: '/compass'),
+  MenuItem(title: 'Giroscopio ball', icon: Icons.sports_baseball, route: '/gyroscope-ball'),
+  MenuItem(title: 'Brujula', icon: Icons.explore, route: '/compass'),
 ];
 
 
@@ -69,7 +69,7 @@ class HomeMenuItem extends StatelessWidget {
             Icon(icon,color: Colors.white,size: 40,),
             const SizedBox(height: 10,),
             Text(title,
-            style: const TextStyle(color: Colors.white),)
+            style: const TextStyle(color: Colors.white, fontSize: 12),)
           ],
         ),
       ),
