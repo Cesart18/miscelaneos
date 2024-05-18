@@ -21,6 +21,8 @@ final menuItems = <MenuItem>[
 
   MenuItem(title: 'Giroscopio ball', icon: Icons.sports_baseball, route: '/gyroscope-ball'),
   MenuItem(title: 'Brujula', icon: Icons.explore, route: '/compass'),
+
+  MenuItem(title: 'Pokemons', icon: Icons.catching_pokemon_sharp, route: '/pokemons'),
 ];
 
 
