@@ -23,7 +23,12 @@ final menuItems = <MenuItem>[
   MenuItem(title: 'Brujula', icon: Icons.explore, route: '/compass'),
 
   MenuItem(title: 'Pokemons', icon: Icons.catching_pokemon_sharp, route: '/pokemons'),
+
   MenuItem(title: 'Biometric', icon: Icons.fingerprint, route: '/biometric'),
+
+  MenuItem(title: 'Ubicacion', icon: Icons.pin_drop, route: '/location'),
+  MenuItem(title: 'Mapas', icon: Icons.map_outlined, route: '/map'),
+  MenuItem(title: 'Controlado', icon: Icons.gamepad_outlined, route: '/controlled'),
 ];
 
 
